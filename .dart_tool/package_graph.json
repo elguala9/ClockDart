@@ -7,6 +7,7 @@
       "name": "clock_dart",
       "version": "1.0.0",
       "dependencies": [
+        "meta",
         "ntp"
       ],
       "devDependencies": [
@@ -49,6 +50,11 @@
     {
       "name": "lints",
       "version": "6.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "meta",
+      "version": "1.17.0",
       "dependencies": []
     },
     {
@@ -360,11 +366,6 @@
         "source_maps",
         "stack_trace"
       ]
-    },
-    {
-      "name": "meta",
-      "version": "1.17.0",
-      "dependencies": []
     },
     {
       "name": "glob",
