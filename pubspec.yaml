@@ -1,15 +1,16 @@
 name: clock_dart
-description: A sample command-line application.
+# Orologio Dart con supporto NTP e singleton.
+description: Orologio Dart con supporto NTP e singleton.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/elguala9/ClockDart
 license: LGPL-3.0
 
 environment:
   sdk: ^3.9.4
 
-# Add regular dependencies here.
 dependencies:
   ntp: ^2.0.0
+  meta: ^1.10.0
 
 dev_dependencies:
   lints: ^6.0.0
